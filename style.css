@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --main-bg: hsl(216, 12%, 8%);
+  --secondary: hsl(213, 19%, 18%);
+  --orange: hsl(25, 97%, 53%);
+  --options: hsl(216, 12%, 54%);
+  --selected: hsl(217, 12%, 63%);
+  --white: hsl(0, 0%, 100%);
+}
+body {
+  background-color: var(--main-bg);
+}
