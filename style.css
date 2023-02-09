@@ -8,7 +8,76 @@
   --options: hsl(216, 12%, 54%);
   --selected: hsl(217, 12%, 63%);
   --white: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
 }
 body {
   background-color: var(--main-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  color: var(--white);
+  background-color: var(--secondary);
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+h1 {
+  margin: 0.5rem 0;
+}
+main p {
+  margin: 1rem 0;
+  color: var(--selected);
+}
+.ratings {
+  display: flex;
+  justify-content: space-evenly;
+}
+.circle {
+  background-color: hsl(212, 12%, 21%);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--selected);
+  margin: 1rem;
+  cursor: pointer;
+}
+/* hover state */
+.circle:hover {
+  background-color: var(--orange);
+  color: white;
+}
+svg {
+  background-color: hsl(212, 12%, 21%);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 1rem;
+  text-align: center;
+}
+button {
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+  color: var(--white);
+  background-color: var(--orange);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: medium;
+}
+/* hover state */
+button:hover {
+  color: var(--orange);
+  background-color: var(--white);
+}
+
+.selected {
+  background-color: var(--selected);
 }
