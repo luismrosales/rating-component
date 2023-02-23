@@ -31,7 +31,7 @@ main p {
   margin: 1rem 0;
   color: var(--selected);
 }
-.ratings {
+#ratings {
   display: flex;
   justify-content: space-evenly;
 }
@@ -80,13 +80,5 @@ button:hover {
 
 .selected {
   background-color: var(--selected);
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--selected);
-  margin: 1rem;
-  cursor: pointer;
+  color: white;
 }
