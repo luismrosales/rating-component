@@ -82,3 +82,17 @@ button:hover {
   background-color: var(--selected);
   color: white;
 }
+
+.mainArea {
+  text-align: center;
+
+}
+
+.selectedMsg {
+  margin: 2rem auto;
+  background-color: hsl(212, 12%, 21%);
+  color: var(--orange);
+  padding: .5rem;
+  border-radius: 1.5rem;
+  width: 50%
+}
